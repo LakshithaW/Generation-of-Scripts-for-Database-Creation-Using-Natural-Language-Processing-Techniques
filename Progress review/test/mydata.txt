@@ -1,0 +1,3 @@
+ Course offers semeste.Semeste has a unique identify and year.
+Course has a unique number, name and credits.Student has an unique id, name and birthday. 
+Student make payment.Payment has an unique code , amount, currency and date. Student follows course.

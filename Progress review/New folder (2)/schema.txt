@@ -1,0 +1,18 @@
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M, identity-F, id-F
+semester, identity-P,year-N,start-N,number-N,date-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+Course, number-p,name-N,credits-M,
+Semester, year-N,identify-p,
+Student, id-p,name-N,birthday-N,
+Payment, date-N,code-p,amount-N,currency-N,
+Course, number-p,name-N,credits-M,
+Semester, year-N,identify-p,
+Student, id-p,name-N,birthday-N,
+Payment, date-N,code-p,amount-N,currency-N,
+Semester, year-N,identify-p,
+Course, number-p,name-N,credits-M,
+Student, id-p,name-N,birthday-N,
+Payment, date-N,code-p,amount-N,currency-N,

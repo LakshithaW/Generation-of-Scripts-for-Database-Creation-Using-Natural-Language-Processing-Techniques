@@ -1,0 +1,7 @@
+
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M, identity-F, id-F
+semester, identity-P,year-N,start-N,number-N,date-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,

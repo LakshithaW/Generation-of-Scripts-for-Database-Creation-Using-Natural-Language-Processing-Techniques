@@ -1,0 +1,3 @@
+Employee-Many,work,Department-One
+Employee-One,has,Project-One
+Employee-Many,assign,Project-One

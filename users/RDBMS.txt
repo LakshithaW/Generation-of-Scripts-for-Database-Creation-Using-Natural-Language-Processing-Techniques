@@ -1,0 +1,11 @@
+create table department_t(
+ start varchar(50) NOT NULL,
+number varchar(50) NOT NULL,
+name varchar(50) NOT NULL,
+date varchar(50) NOT NULL,
+location varchar(50) NOT NULL
+);
+ create table _t(
+ varchar(50) NOT NULL
+);
+ 

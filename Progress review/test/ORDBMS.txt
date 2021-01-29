@@ -1,0 +1,50 @@
+create type semester_type as object(
+identify varchar(50),
+year varchar(50),
+number Ref course_type
+);
+create table semester_table of semester_type(
+identify primary key not null,
+year not null,
+constraint course_number foreign key(number) references course_table
+); 
+
+create type student_type as object(
+id varchar(50),
+name varchar(50),
+birthday varchar(50)
+);
+create table student_table of student_type(
+id primary key not null,
+name not null,
+birthday not null,
+); 
+
+create type course_type as object(
+number varchar(50),
+name varchar(50),
+credits varchar(50),
+id Ref student_type
+);
+create table course_table of course_type(
+number primary key not null,
+name not null,
+credits not null,
+constraint student_id foreign key(id) references student_table
+); 
+
+create type payment_type as object(
+code varchar(50),
+amount varchar(50),
+currency varchar(50),
+date varchar(50),
+id Ref student_type
+);
+create table payment_table of payment_type(
+code primary key not null,
+amount not null,
+currency not null,
+date not null,
+constraint student_id foreign key(id) references student_table
+); 
+

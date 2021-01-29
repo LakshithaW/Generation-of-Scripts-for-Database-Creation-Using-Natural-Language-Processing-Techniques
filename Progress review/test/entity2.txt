@@ -1,0 +1,3 @@
+course-one,offers ,semester-one
+student-one,make ,payment-one
+student-one,follows ,course-one

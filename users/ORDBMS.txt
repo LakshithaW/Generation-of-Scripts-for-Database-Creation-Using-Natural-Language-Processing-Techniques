@@ -1,0 +1,49 @@
+create type department_type as object(
+date varchar(50),
+number varchar(50),
+name varchar(50),
+start varchar(50),
+location varchar(50)
+);
+create table department_table of department_type(
+date not null,
+number not null,
+name not null,
+start not null,
+location not null,
+); 
+
+create type Employee_type as object(
+dob varchar(50),
+supervisor varchar(50),
+date varchar(50),
+works varchar(50),
+number varchar(50),
+name varchar(50),
+start varchar(50),
+sex varchar(50),
+address varchar(50)
+);
+create table Employee_table of Employee_type(
+dob not null,
+supervisor not null,
+date not null,
+works not null,
+number not null,
+name not null,
+start not null,
+sex not null,
+address not null,
+); 
+
+create type project_type as object(
+name varchar(50),
+location varchar(50),
+number varchar(50)
+);
+create table project_table of project_type(
+name not null,
+location not null,
+number not null,
+); 
+

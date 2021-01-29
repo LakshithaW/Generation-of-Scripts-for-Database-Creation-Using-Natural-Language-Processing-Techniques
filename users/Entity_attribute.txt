@@ -1,0 +1,29 @@
+
+entity_relation : COMPANY-one
+relationship : is organized 
+entity_relation : department-Many
+
+entity_relation : department-one
+relationship : has manages 
+entity_relation : department-one
+
+
+
+
+
+entity_relation : department-one
+relationship : is assigned work are controlled 
+entity_relation : department-one
+
+
+
+
+
+entity :department
+att_count :7
+attributes : name-p,number-p,date-N,location-N,employee-N,start-N,projects-M,
+
+entity :COMPANY
+att_count :0
+attributes : 
+

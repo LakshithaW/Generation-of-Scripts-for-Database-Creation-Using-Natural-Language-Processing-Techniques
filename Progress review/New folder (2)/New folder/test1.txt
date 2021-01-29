@@ -1,0 +1,3 @@
+course-Many,offers ,semester-One
+student-Many,make ,payment-Many
+student-One,follows ,course-Many

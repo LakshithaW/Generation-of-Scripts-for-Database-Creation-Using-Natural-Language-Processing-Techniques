@@ -1,0 +1,3 @@
+COMPANY-one,is organized ,department-Many
+department-one,has manages ,department-one
+department-one,is assigned work are controlled ,department-one

@@ -1,0 +1,2 @@
+nor.py ->> Pk
+rdbms -> value[0]

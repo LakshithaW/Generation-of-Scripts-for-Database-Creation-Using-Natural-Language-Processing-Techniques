@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+<celldata>
+<entity_relation>COMPANY-one</entity_relation>
+<relationship>is organized </relationship>
+<entity_relation>department-Many</entity_relation>
+<entity_relation>department-one</entity_relation>
+<relationship>has manages </relationship>
+<entity_relation>department-one</entity_relation>
+<entity_relation>department-one</entity_relation>
+<relationship>is assigned work are controlled </relationship>
+<entity_relation>department-one</entity_relation>
+<entity>department</entity>
+<Entity name="department">
+<Attributes> name-p</Attributes>
+<Attributes>number-p</Attributes>
+<Attributes>date-N</Attributes>
+<Attributes>location-N</Attributes>
+<Attributes>employee-N</Attributes>
+<Attributes>start-N</Attributes>
+<Attributes>projects-M</Attributes>
+</Entity>
+<entity>COMPANY</entity>
+<Entity name="COMPANY">
+</Entity>
+</celldata>
+
+</root>

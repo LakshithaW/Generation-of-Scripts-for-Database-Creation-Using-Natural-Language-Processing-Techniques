@@ -1,0 +1,16 @@
+Employee,id-P,name-N,contacts-M,code-F
+Project,number-P,name-N,id-F
+Employee,id-P,name-N,contacts-M,code-F,number-F
+Department,code-P,mgr-N
+Project,number-P,name-N,id-F,number-FEmployee,id-P,name-N,contacts-M,code-F
+Project,number-P,name-N,id-F
+Employee,id-P,name-N,contacts-M,code-F,number-F
+Department,code-P,mgr-N
+Employee,id-P,name-N,contacts-M,code-F
+Project,number-P,name-N,id-F
+Employee,id-P,name-N,contacts-M,code-F,number-F
+Department,code-P,mgr-N
+Employee,id-P,name-N,contacts-M,code-F
+Project,number-P,name-N,id-F
+Employee,id-P,name-N,contacts-M,code-F,number-F
+Department,code-P,mgr-N

@@ -1,0 +1,4 @@
+semester, identity-P,year-N,
+payment, code-P,amount-N,currency-N,date-N,
+course, number-P,name-N,credits-M,
+student, id-P,name-N,birthday-N,

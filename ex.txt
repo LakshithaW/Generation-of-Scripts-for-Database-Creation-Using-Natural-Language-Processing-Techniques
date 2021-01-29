@@ -1,0 +1,15 @@
+Soap is an item.  Item has a price and a date. Soap has a weight. Cream is an item. Cream has a volume and expiry-date. Item can be sold by Employee.  Employee has identity, name and address. Customer can buy items.  Customer has a name, address and credit-limit.  Bill is issued by Employee. Bill has number, amount and date
+
+
+UPS prides itself on having up-to-date information on the processing and current location of each
+shipped item. To do this, UPS relies on a company-wide information system. Shipped items are
+the heart of the UPS product tracking information system. Shipped items can be characterized
+by item number (unique), weight, dimensions, insurance amount, destination, and final delivery
+date. Shipped items are received into the UPS system at a single retail center. Retail centers are
+characterized by their type, uniqueID, and address. Shipped items make their way to their
+destination via one or more standard UPS transportation events (i.e., flights, truck deliveries).
+These transportation events are characterized by a unique scheduleNumber, a type (e.g, flight,
+truck), and a deliveryRoute
+
+
+Institute has lecturers. Lecturers conduct modules. Lecturer has unique number , name and address. Institute has unique id , name and hall.     

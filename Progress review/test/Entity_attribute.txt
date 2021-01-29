@@ -1,0 +1,32 @@
+entity_relation : course-one
+relationship : offers 
+entity_relation : semester-one
+
+
+
+
+entity_relation : student-one
+relationship : make 
+entity_relation : payment-one
+
+
+entity_relation : student-one
+relationship : follows 
+entity_relation : course-one
+
+entity : semester
+att_count : 2
+attributes : identify-P,year-N,
+
+entity : student
+att_count : 3
+attributes : id-P,name-N,birthday-N,
+
+entity : course
+att_count : 3
+attributes : number-P,name-N,credits-M,
+
+entity : payment
+att_count : 4
+attributes : code-P,amount-N,currency-N,date-N,
+

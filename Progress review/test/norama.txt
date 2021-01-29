@@ -1,0 +1,5 @@
+semester_t, identify-P,year-N, number-F
+student_t, id-P,name-N,birthday-N
+course_t, number-P,name-N, id-F
+credits-M_t,credits-M, number-P
+payment_t, code-P,amount-N,currency-N,date-N, id-F

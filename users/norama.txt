@@ -1,0 +1,2 @@
+department_t, start-N,number-N,name-p,date-N,location-N
+_t,

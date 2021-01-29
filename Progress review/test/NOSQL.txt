@@ -1,0 +1,31 @@
+db.semester.insert({
+ identify: ,
+year: ,
+ number: ,
+course_ number: db.course.find()[0]._id
+});
+
+ db.student.insert({
+ id: ,
+name: ,
+birthday: ,
+});
+
+ db.course.insert({
+ number: ,
+name: ,
+credits: ,
+ id: ,
+student_ id: db.student.find()[0]._id
+});
+
+ db.payment.insert({
+ code: ,
+amount: ,
+currency: ,
+date: ,
+ id: ,
+student_ id: db.student.find()[0]._id
+});
+
+ 

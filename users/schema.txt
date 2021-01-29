@@ -1,0 +1,4 @@
+department, start-N,number-N,name-p,date-N,location-N,
+project, number-N,name-p,location-N,works-M,
+Employee, start-N,address-N,number-N,name-p,date-N,sex-N,dob-N,supervisor-N,
+department, name-p,number-p,date-N,location-N,employee-N,start-N,projects-M,

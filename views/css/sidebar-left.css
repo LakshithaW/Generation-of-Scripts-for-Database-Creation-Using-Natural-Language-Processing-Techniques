@@ -1,0 +1,44 @@
+/* The main content */
+
+.main-content {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 600px;
+	padding-top: 10px;
+	margin: 0 0 40px 10px;
+}
+
+
+/* The left sidebar */
+
+.sidebar-left {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	background-color: blue;
+	width: 120px;
+	height: 200px;
+	padding: 20px 0;
+}
+
+
+
+.sidebar-left .sidebar-links a {
+	display: block;
+	text-decoration: none;
+	margin: 0 auto 5px auto;
+	padding: 20px 0;
+	background-color: black;
+	text-align: center;
+	color:  white;
+	font-size: 12px;
+	font-weight: bold;
+	border-left-width: 2px;
+	border-left-style: solid;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+}

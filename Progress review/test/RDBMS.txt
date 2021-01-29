@@ -1,0 +1,22 @@
+create table semester_t(
+ identify varchar(50) NOT NULL primary key,
+year varchar(50) NOT NULL,
+);
+ create table student_t(
+ id varchar(50) NOT NULL primary key,
+name varchar(50) NOT NULL,
+);
+ create table course_t(
+ number varchar(50) NOT NULL primary key,
+name varchar(50) NOT NULL,
+);
+ create table credits-M_t(
+credits varchar(50) NOT NULL,
+);
+ create table payment_t(
+ code varchar(50) NOT NULL primary key,
+amount varchar(50) NOT NULL,
+currency varchar(50) NOT NULL,
+date varchar(50) NOT NULL,
+);
+ 

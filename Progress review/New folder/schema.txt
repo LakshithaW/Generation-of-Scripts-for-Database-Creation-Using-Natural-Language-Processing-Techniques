@@ -1,0 +1,46 @@
+semester, identity-P,year-N,, number-F
+payment, code-P,amount-N,currency-N,date-N,, id-F
+course, number-P,name-N,credits-M,, id-F
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M,, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P ,code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, amount-N,code-P,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P ,code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, amount-N,code-P,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,
+course, number-P,name-N,credits-M, identity-F
+student_payment, id-P , code-P
+course, number-P,name-N,credits-M,, id-F, id-F
+semester, identity-P,year-N,
+payment, code-P,amount-N,currency-N,date-N,
+student, id-P,name-N,birthday-N,
